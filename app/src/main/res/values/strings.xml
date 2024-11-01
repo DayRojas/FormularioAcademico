@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Formulario Académico</string>
+    <string name="nombre">Nombre</string>
+    <string name="gender">Género:</string>
+    <string name="engineering">Facultad:</string>
+    <string name="law">Facultad:</string>
+    <string name="medicine">Facultad:</string>
+    <string name="administration">Facultad:</string>
+    <string name="facultad">Facultades:</string>
+    <string-array name="faculty_options">
+        <item>@string/engineering</item>
+        <item>@string/law</item>
+        <item>@string/medicine</item>
+        <item>@string/administration</item>
+    </string-array>
+    <string name="program">Programa:</string>
+    <string-array name="programs_array">
+        <item>Ingeniería de Sistemas</item>
+        <item>Derecho</item>
+        <item>Ingeniería Industrial</item>
+        <item>Ciencias políticas</item>
+        <item>Medicina</item>
+        <item>Enfermería</item>
+        <item>Administración</item>
+        <item>Economía</item>
+    </string-array>
+
+</resources>

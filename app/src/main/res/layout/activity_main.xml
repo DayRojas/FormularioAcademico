@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+
+        />
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su nombre"
+        />
+    <TextView
+        android:id="@+id/textViewGenero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione su género:"
+    />
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masculino"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Femenino"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textViewFacultad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione su facultad:"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBoxEngineering"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingeniería"/>
+    <CheckBox
+        android:id="@+id/checkBoxLaw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Derecho"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxMedicine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicina"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxAdministration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Administración"/>
+
+    <TextView
+        android:id="@+id/textViewPrograma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione su programa:"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerProgram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"/>
+
+</LinearLayout>
+
